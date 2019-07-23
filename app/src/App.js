@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Form from './form.js';
+import TableExample from './table.js';
 import './App.css';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
@@ -75,14 +76,27 @@ class App extends Component {
             <TabPane tabId="2">
               <Row>
                 <Col sm="12">
-
+                  <TableExample />
                 </Col>
               </Row>
             </TabPane>
             <TabPane tabId="3">
               <Row>
                 <Col sm="12">
-
+                   <div className="about">
+                    <br></br>
+                    <h1>About Us</h1>
+                    <p> This  a site for personal information and biographies
+                       so that the user can fill in the information and download the file for his resume.</p>
+                    <p>Made for practice purposes using React.js </p>
+                    <h1> By *_*</h1>
+                    <h2> Leader</h2>
+                    <p> سمر مسيعيد الرحيلي</p>
+                    <h2> Member</h2>
+                    <p> انوار دحيم عبدالله</p>
+                    <h2> Member</h2>
+                    <p>فاطمة معيض الحارثي</p>
+                  </div>
                 </Col>
               </Row>
             </TabPane>
