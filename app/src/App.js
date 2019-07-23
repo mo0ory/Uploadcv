@@ -83,7 +83,7 @@ class App extends Component {
             <TabPane tabId="3">
               <Row>
                 <Col sm="12">
-                   <div className="about">
+                  <div className="about">
                     <br></br>
                     <h1>About Us</h1>
                     <p> This  a site for personal information and biographies
