@@ -19,5 +19,26 @@ img{
   font-size: calc(10px + 2vmin);
   color: #007399;
 }
+p{
+color:#7171ce;
+font-size: 30px;
 
+}
+h1{
+  color:#4b2753;
+font-size: 15px;
+}
 
+h2{
+  color: #c63939;
+  padding: 10px;
+  font-family: Arial;
+  text-align: center;
+  font-size: 50px;
+} 
+
+h3{
+  padding: 10px;
+  color: #092179;
+  font-size: 20px;
+}
