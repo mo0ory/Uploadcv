@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  width: 99%;
+  border-radius: 10px;
+  padding: 70px;
+  
+}
+img{
+  background-image: url(./logo.jpg);
+  text-align: left
+}
+
+.Tap{
+  border: 1px solid #fff;
+    border-radius: 10px;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: #007399;
+}
+
+
