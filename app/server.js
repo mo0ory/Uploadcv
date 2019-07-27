@@ -1,6 +1,6 @@
 var express = require('express');
 var mongoose = require('mongoose');
-const items = require('./routes/api/items');
+const items = require('./routes/Api/items');
 var bodyParser = require('body-parser');
 var multer = require('multer')
 var cors = require('cors');
@@ -14,7 +14,7 @@ app.use(cors);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/api/items', items);
+app.use('/Api/items', items);
 
 //connect database
 var url = 'mongodb://localhost:27017/information';
