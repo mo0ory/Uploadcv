@@ -3,21 +3,21 @@ const router = express.Router();
 //item model
 const Item = require('../../src/Item');
 
+
 //route GET items
 //desc Get ALL Items
 // access public
 
-
-router.get('/', (req, res) => {
+router.get('/',(req, res) => {
   Item.find()
     .sort({ date: -1 })
-    .then(items => res.json(items))
+    .then(items => res.json(items));
 });
 
 //route post items
 //desc Get ALL Items
 // access public
-router.post('/', (req, res) => {
+router.post('/', (type, req, res) => {
   const newItem = new Item({
     firstName: req.body.firstName,
     lastName: req.body.lastName,
@@ -25,10 +25,11 @@ router.post('/', (req, res) => {
     major: req.body.major,
     cv: req.body.cv
   });
+
   newItem.save().then(item => res.json(item));
 });
 
-//route delet Api/items/:id
+//route delet api/items/:id
 //desc Get ALL Items
 // access public
 
@@ -39,12 +40,6 @@ router.delete('/:id', (req, res) => {
 });
 
 module.exports = router;
-
-
-
-
-
-
 
 
 
