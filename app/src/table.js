@@ -14,7 +14,7 @@ export default class TableExample extends Component {
   componentDidMount() {
 
     console.log("inside componentDidMount ")
-    fetch('/api/items')
+    fetch('/Api/items')
     // , {
     //   headers: {
     //     'Content-Type': 'application/json',
