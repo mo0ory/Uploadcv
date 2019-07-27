@@ -34,7 +34,7 @@ class Form extends Component {
     //         major: this.state.major,
     //         selectedFile: this.state.selectedFile
     //     }
-    //     axios.post('/api/items', newUser)
+    //     axios.post('/Api/items', newUser)
     //         .then(res => console.log(res.data))
     //         .catch(err => console.log(err.response.data));
     // }
@@ -72,7 +72,7 @@ class Form extends Component {
         return (
             <div className="App">
 
-                <form  method="post" action="/api/items"  >
+                <form  method="post" action="/Api/items"  >
                     <p className="bigred"><b>UploadCV</b></p>
 
                     <div className="inputForm">
