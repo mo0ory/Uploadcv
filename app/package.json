@@ -8,7 +8,7 @@
     "bootstrap": "^4.3.1",
     "concurrently": "^4.1.1",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "material-ui": "^1.0.0-beta.47",
     "material-ui-table": "^0.1.2",
     "mongodb": "^3.3.0-beta2",
